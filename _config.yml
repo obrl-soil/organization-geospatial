@@ -8,14 +8,8 @@ carpentry: "dc"
 # Overall title for pages.
 title: "Introduction to Spatio-Temporal Data"
 
-# Account (without slashes).
-account: "datacarpentry"
-
-# Root URL below account (without slashes).
-project: "r-spatial-data-management-intro"
-
 # Contact email address.
-email: lessons@software-carpentry.org
+email: "lessons@software-carpentry.org"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -73,3 +67,7 @@ exclude:
 
 # Turn off built-in syntax highlighting.
 highlighter: false
+
+## plugins
+plugins:
+  - "jekyll-github-metadata"
